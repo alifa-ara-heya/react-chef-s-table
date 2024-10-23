@@ -67,8 +67,8 @@ const Header = () => {
             {/* banner starts */}
             <div className="w-11/12 mx-auto my-4">
                 <div style={{backgroundImage: 'url("/images/chef.png")'}} className="min-h-[600px] bg-cover bg-center bg-no-repeat w-full rounded-xl text-white text-center flex items-center">
-                    <div className="w-3/4 mx-auto space-y-5">
-                        <h3 className="text-5xl md:text-7xl">Discover an exceptional cooking class tailored for you!</h3>
+                    <div className="w-11/12 md:w-3/4 mx-auto space-y-5">
+                        <h3 className="text-4xl md:text-7xl font-extrabold">Discover an exceptional cooking class tailored for you!</h3>
                         <p className="opacity-75">Join a personalized cooking class designed to suit your taste, skill level, and culinary goals. Learn from expert chefs, elevate your kitchen skills, and create delicious dishes with confidence!</p>
                         <button className="btn bg-lime-500 border-none text-white">Explore Now</button>
                         <button className="btn ml-4">Get Feedback</button>
