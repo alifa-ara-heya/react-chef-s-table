@@ -3,6 +3,7 @@
 import Recipe from "../Recipe/Recipe";
 import { useEffect } from "react";
 import { useState } from "react";
+import WantToCook from "../WantToCook/WantToCook";
 
 const Recipes = () => {
     const [recipes, setRecipes] = useState([]);
@@ -22,11 +23,16 @@ const Recipes = () => {
                 <p className="w-3/4 mx-auto">Join a personalized cooking class designed to suit your taste, skill level, and culinary goals. Learn from expert chefs, elevate your kitchen skills, and create delicious dishes with confidence!</p>
             </div>
 
-            <div>
-                {
-                    recipes.map((recipe) => <Recipe key={recipe.id} recipe={recipe}>
-                    </Recipe>)
-                }
+            <div className="flex flex-col md:flex-row gap-4">
+                <div className="md:w-2/3 grid grid-cols-2 gap-6 py-4">
+                    {
+                        recipes.map((recipe) => <Recipe key={recipe.id} recipe={recipe}>
+                        </Recipe>)
+                    }
+                </div>
+                <div className="md:w-1/3 border rounded-lg p-3">
+                    <WantToCook></WantToCook>
+                </div>
             </div>
         </div>
     );

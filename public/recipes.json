@@ -12,8 +12,8 @@
         "50 ml olive oil",
         "1 clove garlic"
       ],
-      "preparing_time": "30 min",
-      "calories": "320 calories"
+      "preparing_time": "30",
+      "calories": "320"
     },
     {
       "recipe_id": 2,
@@ -27,8 +27,8 @@
         "150 ml white wine",
         "100 g Parmesan cheese"
       ],
-      "preparing_time": "45 min",
-      "calories": "400 calories"
+      "preparing_time": "45",
+      "calories": "400"
     },
     {
       "recipe_id": 3,
@@ -42,8 +42,8 @@
         "50 g Parmesan cheese",
         "1 clove garlic"
       ],
-      "preparing_time": "25 min",
-      "calories": "550 calories"
+      "preparing_time": "25",
+      "calories": "550"
     },
     {
       "recipe_id": 4,
@@ -57,8 +57,8 @@
         "50 g spinach",
         "1 tbsp tahini"
       ],
-      "preparing_time": "20 min",
-      "calories": "300 calories"
+      "preparing_time": "20",
+      "calories": "300"
     },
     {
       "recipe_id": 5,
@@ -72,8 +72,8 @@
         "100 g guacamole",
         "50 g lettuce"
       ],
-      "preparing_time": "30 min",
-      "calories": "450 calories"
+      "preparing_time": "30",
+      "calories": "450"
     },
     {
       "recipe_id": 6,
@@ -87,8 +87,8 @@
         "1 egg",
         "100 g butter"
       ],
-      "preparing_time": "15 min",
-      "calories": "200 calories"
+      "preparing_time": "15",
+      "calories": "200"
     }
   ]
 }
