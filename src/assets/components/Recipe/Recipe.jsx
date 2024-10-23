@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { CiClock1 } from "react-icons/ci";
 import { GoFlame } from "react-icons/go";
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe, handleAddToWantToCook}) => {
     // console.log(recipe);
     const {recipe_id, recipe_name, recipe_image, short_description, ingredients, preparing_time, calories} = recipe;
 
@@ -22,13 +22,14 @@ const Recipe = ({recipe}) => {
                 <p className='flex items-center gap-2'><CiClock1/>{preparing_time} min</p>
                 <p className='flex items-center gap-2'><GoFlame/>{calories} calories</p>
             </div>
-            <button className='btn bg-lime-500'>Want to Cook</button>
+            <button onClick={()=>handleAddToWantToCook(recipe)} className='btn bg-lime-500'>Want to Cook</button>
         </div>
     );
 };
 
 Recipe.propTypes = {
     recipe: PropTypes.object.isRequired,
+    handleAddToWantToCook: PropTypes.func.isRequired
 };
 
 export default Recipe;
